@@ -33,7 +33,7 @@ function List() {
     }
 
     const handleSubmit =(e)=>{
-      if(todoInput =='') return;
+      if(todoInput ==='') return;
       setTodos([
         {
         id: Math.random() * 10000,
